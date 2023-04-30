@@ -89,3 +89,18 @@ nlu:
     - are you a human?
     - am I talking to a bot?
     - am I talking to a human?
+
+
+#- entity: name
+  # examples: |
+  #   - [Gaurangi Agrawal](name)
+  #   - [Satvika Shrivastava](name)
+  #   - [Anoushka Chouksey](name)
+  #   - [Shubhanshi Bhandari](name)
+
+- intent: ask_roll_no
+  examples: |
+    - What id the roll no. of [Gaurangi Agrawal](name)?
+    - Can you give me the roll no. for [Satvika Shrivastava](name)?
+    - Please give me the roll no. of [Anoushka Chouksey](name)?
+    - Roll no. of [Shubhanshi Bhandari](name) is:

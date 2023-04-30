@@ -11,3 +11,8 @@ rules:
   steps:
   - intent: bot_challenge
   - action: utter_iamabot
+
+# - rule: Say 'The roll no. is' anytime the user asks for it
+#   steps:
+#   - intent: ask_roll_no
+#   - action: utter_give_roll_no
