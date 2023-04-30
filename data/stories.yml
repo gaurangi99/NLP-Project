@@ -27,4 +27,18 @@ stories:
   - action: utter_cheer_up
   - action: utter_did_that_help
   - intent: deny
+  - action: utter_sorry
+  - checkpoint: bye_checkpoint
+
+- story: bye path
+  steps:
+  - checkpoint: bye_checkpoint
+  - intent: goodbye
   - action: utter_goodbye
+
+- story: faq path
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: faq
+  - action: utter_faq

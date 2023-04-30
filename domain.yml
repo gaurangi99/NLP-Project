@@ -7,7 +7,10 @@ intents:
   - deny
   - mood_great
   - mood_unhappy
+  - faq/language
   - bot_challenge
+  - ask_roll_no
+  - ask_teammate
 
 responses:
   utter_greet:
@@ -24,10 +27,22 @@ responses:
   - text: "Great, carry on!"
 
   utter_goodbye:
-  - text: "Bye"
+  - text: "Bye!"
+
+  utter_sorry:
+  - text: "Sorry! Better luck next time to me :("
+
+  utter_faq:
+  - text: "I can only handle English as a language."
 
   utter_iamabot:
   - text: "I am a bot, powered by Rasa."
+
+  utter_roll_no:
+  - text: "Roll no. of (name) is:....."
+
+  utter_teammate:
+  - text: "Teammate of (name) is:....."
 
 session_config:
   session_expiration_time: 60

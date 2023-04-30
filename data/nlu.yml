@@ -90,6 +90,10 @@ nlu:
     - am I talking to a bot?
     - am I talking to a human?
 
+- intent: faq/language
+  examples: |
+    - What language do you speak?
+    - Do you only handle english?
 
 #- entity: name
   # examples: |
@@ -97,10 +101,46 @@ nlu:
   #   - [Satvika Shrivastava](name)
   #   - [Anoushka Chouksey](name)
   #   - [Shubhanshi Bhandari](name)
+  #   - [Anisha Rani](name)
+  #   - [Tanishka Singhal](name)
 
 - intent: ask_roll_no
   examples: |
-    - What id the roll no. of [Gaurangi Agrawal](name)?
+    - What is the roll no. of [Gaurangi Agrawal](name)?
     - Can you give me the roll no. for [Satvika Shrivastava](name)?
     - Please give me the roll no. of [Anoushka Chouksey](name)?
     - Roll no. of [Shubhanshi Bhandari](name) is:
+    - May I know the roll no. of [Tanishka Singhal](name)?
+
+- intent: ask_teammate
+  examples: |
+    - Who is teammate of [Gaurangi Agrawal](name)?
+    - Who is partner of [Anoushka Chouksey](name)?
+    - Teammate of [Satvika Shrivastava](name) is:
+    - Partner of [Shubhanshi Bhandari](name) is:
+    - [Anisha Rani](name) is paired with whom?
+    - [Tanishka Singhal](name) is doing project with whom?
+
+
+
+- synonym: name
+  example: |
+    - full name
+
+- synonym: roll_no
+  example: |
+    - roll id
+    - admission_no
+    - registration id
+    - reg_no
+    - roll_number
+
+- synonym: email
+  example: |
+    - mail-id
+    - mail
+    - e-mail
+    - email id
+    - id
+    - mail address
+    - enail address

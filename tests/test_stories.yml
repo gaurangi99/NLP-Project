@@ -58,7 +58,7 @@ stories:
   - user: |
       not really
     intent: deny
-  - action: utter_goodbye
+  - action: utter_sorry
 
 - story: sad path 3
   steps:
@@ -74,7 +74,7 @@ stories:
   - user: |
       no
     intent: deny
-  - action: utter_goodbye
+  - action: utter_sorry
 
 - story: say goodbye
   steps:
