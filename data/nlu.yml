@@ -21,6 +21,7 @@ nlu:
   examples: |
     - cu
     - good by
+    - tata
     - cee you later
     - good night
     - bye
@@ -37,7 +38,11 @@ nlu:
     - indeed
     - of course
     - that sounds good
+    - that's right
+    - cool
     - correct
+    - okay
+    - k
 
 - intent: deny
   examples: |
@@ -90,21 +95,21 @@ nlu:
     - am I talking to a bot?
     - am I talking to a human?
 
-- intent: faq/language
+- intent: faq_language
   examples: |
     - What language do you speak?
     - Do you only handle english?
 
-#- entity: name
-  # examples: |
-  #   - [Gaurangi Agrawal](name)
-  #   - [Satvika Shrivastava](name)
-  #   - [Anoushka Chouksey](name)
-  #   - [Shubhanshi Bhandari](name)
-  #   - [Anisha Rani](name)
-  #   - [Tanishka Singhal](name)
+- intent: continue
+  examples: |
+    - continue
+    - I want to talk more.
+    - I want to continue chatting.
+    - Can you tell me more?
+    - please continue
+    - let's continue
 
-- intent: ask_roll_no
+- intent: get_roll_no
   examples: |
     - What is the roll no. of [Gaurangi Agrawal](name)?
     - Can you give me the roll no. for [Satvika Shrivastava](name)?
@@ -112,31 +117,20 @@ nlu:
     - Roll no. of [Shubhanshi Bhandari](name) is:
     - May I know the roll no. of [Tanishka Singhal](name)?
 
-- intent: ask_teammate
-  examples: |
-    - Who is teammate of [Gaurangi Agrawal](name)?
-    - Who is partner of [Anoushka Chouksey](name)?
-    - Teammate of [Satvika Shrivastava](name) is:
-    - Partner of [Shubhanshi Bhandari](name) is:
-    - [Anisha Rani](name) is paired with whom?
-    - [Tanishka Singhal](name) is doing project with whom?
-
-
-
 - synonym: name
-  example: |
+  examples: |
     - full name
 
 - synonym: roll_no
-  example: |
+  examples: |
     - roll id
-    - admission_no
+    - admission no
     - registration id
-    - reg_no
-    - roll_number
+    - reg no.
+    - roll number
 
 - synonym: email
-  example: |
+  examples: |
     - mail-id
     - mail
     - e-mail
@@ -144,3 +138,19 @@ nlu:
     - id
     - mail address
     - enail address
+
+# - synonym: teammate
+#   examples: |
+#     - partner
+#     - team partner
+#     - team member
+#     - colleague
+
+# - intent: ask_teammate
+#   examples: |
+#     - Who is teammate of [Gaurangi Agrawal](name)?
+#     - Who is partner of [Anoushka Chouksey](name)?
+#     - Teammate of [Satvika Shrivastava](name) is:
+#     - Partner of [Shubhanshi Bhandari](name) is:
+#     - [Anisha Rani](name) is paired with whom?
+#     - [Tanishka Singhal](name) is doing project with whom?

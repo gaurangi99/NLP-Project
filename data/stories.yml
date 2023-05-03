@@ -8,6 +8,8 @@ stories:
   - action: utter_greet
   - intent: mood_great
   - action: utter_happy
+  - intent: continue
+  - action: utter_continue
 
 - story: sad path 1
   steps:
@@ -18,6 +20,8 @@ stories:
   - action: utter_did_that_help
   - intent: affirm
   - action: utter_happy
+  - intent: continue
+  - action: utter_continue
 
 - story: sad path 2
   steps:
@@ -33,12 +37,22 @@ stories:
 - story: bye path
   steps:
   - checkpoint: bye_checkpoint
-  - intent: goodbye
   - action: utter_goodbye
 
 - story: faq path
   steps:
   - intent: greet
   - action: utter_greet
-  - intent: faq
-  - action: utter_faq
+  - intent: faq_language
+  - action: utter_faq_language
+
+- story: roll no path
+  steps:
+  - intent: get_roll_no
+    entities:
+    - name
+  - action: action_query_database
+  - action: utter_roll_no
+  - slot_was_set:
+    - name: null
+  - action: utter_goodbye

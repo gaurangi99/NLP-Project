@@ -7,10 +7,23 @@ intents:
   - deny
   - mood_great
   - mood_unhappy
-  - faq/language
+  - faq_language
   - bot_challenge
-  - ask_roll_no
-  - ask_teammate
+  - continue
+  - get_roll_no
+
+entities:
+  - name
+
+actions:
+- action_query_database
+
+slots:
+  name:
+    type: text
+    mappings:
+      - type: from_entity
+        entity: name
 
 responses:
   utter_greet:
@@ -32,23 +45,18 @@ responses:
   utter_sorry:
   - text: "Sorry! Better luck next time to me :("
 
-  utter_faq:
+  utter_faq_language:
   - text: "I can only handle English as a language."
 
   utter_iamabot:
   - text: "I am a bot, powered by Rasa."
 
-  utter_roll_no:
-  - text: "Roll no. of (name) is:....."
+  utter_continue:
+  - text: "Okay! Ask what you want to..."
 
-  utter_teammate:
-  - text: "Teammate of (name) is:....."
+  utter_roll_no:
+  - text: "{name}"
 
 session_config:
   session_expiration_time: 60
   carry_over_slots_to_new_session: true
-
-
-
-
-//output is present

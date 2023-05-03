@@ -1,0 +1,11 @@
+version: "3.1"
+
+nlu: 
+  - lookup: name
+    examples: |
+      - Gaurangi Agrawal
+      - Satvika Shrivastava
+      - Anoushka Chouksey
+      - Shubhanshi Bhandari
+      - Anisha Rani
+      - Tanishka Singhal
