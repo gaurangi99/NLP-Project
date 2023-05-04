@@ -111,46 +111,210 @@ nlu:
 
 - intent: get_roll_no
   examples: |
+    - What is the roll no. of [Sarthak Harne](name)?
+    - Can you give me the roll id for [Chinthan Chandra](name)?
+    - Please give me the admission no. of [Dasari Naga Raju](name)?
+    - Registration id of [Dhruv Awasthi](name) is:
+    - May I know the student id of [Naik Prachi Sanjay](name)?
+    - What is the reg no. of [Rohith Vaidyanathan](name)?
+    - Can you give me the roll number for [Aniket Mitra](name)?
+    - Please give me the roll no. of [Aakanksha Rani](name)?
+    - Roll no. of [Akanksha Shukla](name) is:
+    - May I know the student id of [Akshat Karodiya](name)?
+    - What is the roll no. of [Ashish Avdhut Kulkarni](name)?
+    - Can you give me the roll no. for [Aswatha Narayanan S](name)?
+    - Please give me the roll no. of [Battula Jashwanth Sai](name)?
+    - Roll no. of [Chinmay Ram Kavimandan](name) is:
+    - May I know the student id of [Dakkili Vishnu Vardhan Reddy](name)?
     - What is the roll no. of [Gaurangi Agrawal](name)?
-    - Can you give me the roll no. for [Satvika Shrivastava](name)?
-    - Please give me the roll no. of [Anoushka Chouksey](name)?
+    - Can you give me the roll no. for [Gaurav Sunilkumar Tilokani](name)?
+    - Please give me the roll no. of [Hardeep Singh Arora](name)?
+    - Roll no. of [Harsh Tripathi](name) is:
+    - May I know the student id of [Hyndavi Ambati](name)?
+    - What is the roll no. of [Jakkilinki Venkata Ram Sreekar](name)?
+    - Can you give me the roll no. for [Jayant Mukundam](name)?
+    - Please give me the roll no. of [Juhi Sohane](name)?
+    - Roll no. of [Madhugandha Prakash Chavan](name) is:
+    - May I know the student id of [Panchadi Vishal Rao](name)?
+    - What is the roll no. of [Parul Sachan](name)?
+    - Can you give me the roll no. for [Prajwal J M](name)?
+    - Please give me the roll no. of [Prasad Kumar Magdum](name)?
+    - Roll no. of [Prithviraj Purushottam Naik](name) is:
+    - May I know the student id of [Rahul Raj Ambastha](name)?
+    - What is the roll no. of [Rittik Panda](name)?
+    - Can you give me the roll no. for [Rohit Raman Gopalakrishnan](name)?
+    - Please give me the roll no. of [Satvika Shrivastava](name)?
     - Roll no. of [Shubhanshi Bhandari](name) is:
-    - May I know the roll no. of [Tanishka Singhal](name)?
+    - May I know the student id of [Shyamanth Kashyap](name)?
+    - What is the roll no. of [Srishtiraj Gupta](name)?
+    - Can you give me the roll no. for [Sudhanshu Kumar](name)?
+    - Please give me the roll no. of [Syed hashir Mahmood](name)?
+    - Roll no. of [Tanishka Singhal](name) is:
+    - May I know the student id of [Tushar Nagpal](name)?
+    - What is the roll no. of [Vikranth Bari](name)?
+    - Can you give me the roll no. for [Yasha Dayal](name)?
+    - Please give me the roll no. of [Yuvraj Sharma](name)?
+    - Roll no. of [Nitin Pandey](name) is:
+    - May I know the student id of [Anshul Sharma](name)?
+    - What is the roll no. of [Aman Kumar Verma](name)?
+    - Can you give me the roll no. for [Kantimahanty Rohit](name)?
+    - Please give me the roll no. of [Anisha Rani](name)?
+    - Roll no. of [Aditya M](name) is:
+    - May I know the student id of [Soumya Chakraborty](name)?
+    - What is the roll no. of [Kiran Kumar Bandi](name)?
+    - Can you give me the roll no. for [Aman Kumar](name)?
+    - Please give me the roll no. of [Anoushka Chouksey](name)?
+    - Roll no. of [Samir Kumar Mishra](name) is:
+    - May I know the student id of [Anick Bhattacharya](name)?
+    - Please give me the roll no. of [Shubham Mondal](name)?
+    - Roll no. of [Prathviraj B N](name) is:
+    - May I know the student id of [Tirthankar Banerjee](name)?    
+
+- intent: get_anchor_point
+  examples: |
+    - What is the anchor point of [IMT2020032](student_id)?
+    - Anchor point of [IMT2020109](student_id) is:
+    - Please give me the anchor point of [MS2021010](student_id)?
+    - Can you give me the anchor point for [MS2022010](student_id)?
+    - May I know the anchor point of [MS2022019](student_id)?
+    - What is the mandate topic of [MS2022021](student_id)?
+    - Mandate of [MS2022502](student_id) is:
+    - What is the anchor point of [MT2022001](student_id)?
+    - Anchor point of [MT2022008](student_id) is:
+    - Please give me the anchor point of [MT2022011](student_id)?
+    - Can you give me the anchor point for [MT2022023](student_id)?
+    - May I know the anchor point of [MT2022026](student_id)?
+    - What is the mandate topic of [MT2022029](student_id)?
+    - Mandate of [MT2022031](student_id) is:
+    - What is the anchor point of [MT2022033](student_id)?
+    - Anchor point of [MT2022044](student_id) is:
+    - Please give me the anchor point of [MT2022045](student_id)?
+    - Can you give me the anchor point for [MT2022047](student_id)?
+    - May I know the anchor point of [MT2022048](student_id)?
+    - What is the mandate topic of [MT2022049](student_id)?
+    - Mandate of [MT2022050](student_id) is:
+    - What is the anchor point of [MT2022054](student_id)?
+    - Anchor point of [MT2022055](student_id) is:
+    - Please give me the anchor point of [MT2022058](student_id)?
+    - Can you give me the anchor point for [MT2022068](student_id)?
+    - May I know the anchor point of [MT2022070](student_id)?
+    - What is the mandate topic of [MT2022075](student_id)?
+    - Mandate of [MT2022078](student_id) is:
+    - What is the anchor point of [MT2022083](student_id)?
+    - Anchor point of [MT2022084](student_id) is:
+    - Please give me the anchor point of [MT2022090](student_id)?
+    - Can you give me the anchor point for [MT2022092](student_id)?
+    - May I know the anchor point of [MT2022105](student_id)?
+    - What is the mandate topic of [MT2022112](student_id)?
+    - Mandate of [MT2022114](student_id) is:
+    - What is the anchor point of [MT2022117](student_id)?
+    - Anchor point of [MT2022119](student_id) is:
+    - Please give me the anchor point of [MT2022122](student_id)?
+    - Can you give me the anchor point for [MT2022123](student_id)?
+    - May I know the anchor point of [MT2022125](student_id)?
+    - What is the mandate topic of [MT2022131](student_id)?
+    - Mandate of [MT2022137](student_id) is:
+    - What is the anchor point of [MT2022138](student_id)?
+    - Anchor point of [MT2022141](student_id) is:
+    - Please give me the anchor point of [MT2022143](student_id)?
+    - Can you give me the anchor point for [MT2022146](student_id)?
+    - May I know the anchor point of [MT2022149](student_id)?
+    - What is the mandate topic of [MT2022153](student_id)?
+    - Mandate of [MT2022161](student_id) is:
+    - What is the anchor point of [MT2022162](student_id)?
+    - Anchor point of [MT2022163](student_id) is:
+    - Please give me the anchor point of [MT2022164](student_id)?
+    - Can you give me the anchor point for [MT2022165](student_id)?
+    - May I know the anchor point of [MT2022167](student_id)?
+    - What is the mandate topic of [MT2022168](student_id)?
+    - Mandate of [MT2022169](student_id) is:
+    - What is the mandate topic of [MT2022170](student_id)?
+    - Mandate of [PH2022509](student_id) is:
+
+- intent: get_teammate
+  examples: |
+    - Who is teammate of [Sarthak Harne](name)?
+    - Who is partner of [Chinthan Chandra](name)?
+    - Teammate of [Dasari Naga Raju](name) is:
+    - Partner of [Dhruv Awasthi](name) is:
+    - [Naik Prachi Sanjay](name) is paired with whom?
+    - [Rohith Vaidyanathan](name) is doing project with whom? 
+    - Who is teammate of [Aniket Mitra](name)?
+    - Who is partner of [Aakanksha Rani](name)?
+    - Teammate of [Akanksha Shukla](name) is:
+    - Partner of [Akshat Karodiya](name) is:
+    - [Ashish Avdhut Kulkarni](name) is paired with whom?
+    - [Aswatha Narayanan S](name) is doing project with whom?
+    - Who is teammate of [Battula Jashwanth Sai](name)?
+    - Who is partner of [Chinmay Ram Kavimandan](name)?
+    - Teammate of [Dakkili Vishnu Vardhan Reddy](name) is:
+    - Partner of [Gaurangi Agrawal](name) is:
+    - [Gaurav Sunilkumar Tilokani](name) is paired with whom?
+    - [Hardeep Singh Arora](name) is doing project with whom? 
+    - Who is teammate of [Harsh Tripathi](name)?
+    - Who is partner of [Hyndavi Ambati](name)?
+    - Teammate of [Madhugandha Prakash Chavan](name) is:
+    - Partner of [Jakkilinki Venkata Ram Sreekar](name) is:
+    - [Jayant Mukundam](name) is paired with whom?
+    - [Juhi Sohane](name) is doing project with whom? 
+    - Who is teammate of [Panchadi Vishal Rao](name)?
+    - Who is partner of [Parul Sachan](name)?
+    - Teammate of [Prajwal J M](name) is:
+    - Partner of [Prasad Kumar Magdum](name) is:
+    - [Prithviraj Purushottam Naik](name) is paired with whom?
+    - [Rahul Raj Ambastha](name) is doing project with whom? 
+    - Who is teammate of [Rittik Panda](name)?
+    - Who is partner of [Rohit Raman Gopalakrishnan](name)?
+    - Teammate of [Satvika Shrivastava](name) is:
+    - Partner of [Shubhanshi Bhandari](name) is:
+    - [Shyamanth Kashyap](name) is paired with whom?
+    - [Srishtiraj Gupta](name) is doing project with whom? 
+    - Who is teammate of [Sudhanshu Kumar](name)?
+    - Who is partner of [Syed hashir Mahmood](name)?
+    - Teammate of [Tanishka Singhal](name) is:
+    - Partner of [Tushar Nagpal](name) is:
+    - [Vikranth Bari](name) is paired with whom?
+    - [Yasha Dayal](name) is doing project with whom?
+    - Who is teammate of [Yuvraj Sharma](name)?
+    - Who is partner of [Nitin Pandey](name)?
+    - Teammate of [Aman Kumar Verma](name) is:
+    - Partner of [Kantimahanty Rohit](name) is:
+    - [Anisha Rani](name) is paired with whom?
+    - [Anshul Sharma](name) is doing project with whom? 
+    - Who is teammate of [Aditya M](name)?
+    - Who is partner of [Soumya Chakraborty](name)?
+    - Teammate of [Kiran Kumar Bandi](name) is:
+    - Partner of [Aman Kumar](name) is:
+    - [Anoushka Chouksey](name) is paired with whom?
+    - [Samir Kumar Mishra](name) is doing project with whom? 
+    - Teammate of [Anick Bhattacharya](name) is:
+    - Partner of [Shubham Mondal](name) is:
+    - [Prathviraj B N](name) is paired with whom?
+    - [Tirthankar Banerjee](name) is doing project with whom? 
 
 - synonym: name
   examples: |
     - full name
 
+- synonym: anchor_point
+  examples: |
+    - mandate topic
+    - mandate  
+
 - synonym: roll_no
   examples: |
     - roll id
-    - admission no
+    - admission no.
     - registration id
     - reg no.
     - roll number
+    - student id
 
-- synonym: email
+- synonym: teammate
   examples: |
-    - mail-id
-    - mail
-    - e-mail
-    - email id
-    - id
-    - mail address
-    - enail address
-
-# - synonym: teammate
-#   examples: |
-#     - partner
-#     - team partner
-#     - team member
-#     - colleague
-
-# - intent: ask_teammate
-#   examples: |
-#     - Who is teammate of [Gaurangi Agrawal](name)?
-#     - Who is partner of [Anoushka Chouksey](name)?
-#     - Teammate of [Satvika Shrivastava](name) is:
-#     - Partner of [Shubhanshi Bhandari](name) is:
-#     - [Anisha Rani](name) is paired with whom?
-#     - [Tanishka Singhal](name) is doing project with whom?
+    - partner
+    - team partner
+    - team member
+    - colleague
+    - paired
+    - pair

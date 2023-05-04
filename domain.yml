@@ -11,15 +11,32 @@ intents:
   - bot_challenge
   - continue
   - get_roll_no
+  - get_anchor_point
+  - get_teammate
 
 entities:
   - name
+  - teammate
+  - anchor_point
+  - student_id
 
 actions:
-- action_query_database
+- action_query_database_1
+- action_query_database_2
+- action_query_database_3
 
 slots:
   name:
+    type: text
+    mappings:
+      - type: from_entity
+        entity: name
+  anchor_point:
+    type: text
+    mappings:
+      - type: from_entity
+        entity: student_id
+  teammate:
     type: text
     mappings:
       - type: from_entity
@@ -56,6 +73,12 @@ responses:
 
   utter_roll_no:
   - text: "{name}"
+
+  utter_anchor_point:
+  - text: "{anchor_point}"
+
+  utter_teammate:
+  - text: "{teammate}"
 
 session_config:
   session_expiration_time: 60

@@ -1,0 +1,18 @@
+[
+  {
+    "name": "anchor_point",
+    "pattern": "(\\bIndic\\ Machine\\ Translation\\b|\\bAbstract\\ Text\\ Summarization\\b|\\bParaphrasing\\ \\&\\ Semantic\\ Matching\\b|\\bConversational\\ Agent\\b|\\bLegal\\ Document\\ Comparison\\b)"
+  },
+  {
+    "name": "name",
+    "pattern": "(\\bSarthak\\ Harne\\b|\\bChinthan\\ Chandra\\b|\\bDasari\\ Naga\\ Raju\\b|\\bDhruv\\ Awasthi\\b|\\bNaik\\ Prachi\\ Sanjay\\b|\\bRohith\\ Vaidyanathan\\b|\\bAniket\\ Mitra\\b|\\bAakanksha\\ Rani\\b|\\bAkanksha\\ Shukla\\b|\\bAkshat\\ Karodiya\\b|\\bAshish\\ Avdhut\\ Kulkarni\\b|\\bAswatha\\ Narayanan\\ S\\b|\\bBattula\\ Jashwanth\\ Sai\\b|\\bChinmay\\ Ram\\ Kavimandan\\b|\\bDakkili\\ Vishnu\\ Vardhan\\ Reddy\\b|\\bGaurangi\\ Agrawal\\b|\\bGaurav\\ Sunilkumar\\ Tilokani\\b|\\bHardeep\\ Singh\\ Arora\\b|\\bHarsh\\ Tripathi\\b|\\bHyndavi\\ Ambati\\b|\\bJakkilinki\\ Venkata\\ Ram\\ Sreekar\\b|\\bJayant\\ Mukundam\\b|\\bJuhi\\ Sohane\\b|\\bMadhugandha\\ Prakash\\ Chavan\\b|\\bPanchadi\\ Vishal\\ Rao\\b|\\bParul\\ Sachan\\b|\\bPrajwal\\ J\\ M\\b|\\bPrasad\\ Kumar\\ Magdum\\b|\\bPrithviraj\\ Purushottam\\ Naik\\b|\\bRahul\\ Raj\\ Ambastha\\b|\\bRittik\\ Panda\\b|\\bRohit\\ Raman\\ Gopalakrishnan\\b|\\bSatvika\\ Shrivastava\\b|\\bShubhanshi\\ Bhandari\\b|\\bShyamanth\\ Kashyap\\b|\\bSrishtiraj\\ Gupta\\b|\\bSudhanshu\\ Kumar\\b|\\bSyed\\ hashir\\ Mahmood\\b|\\bTanishka\\ Singhal\\b|\\bTushar\\ Nagpal\\b|\\bVikranth\\ Bari\\b|\\bYasha\\ Dayal\\b|\\bYuvraj\\ Sharma\\b|\\bNitin\\ Pandey\\b|\\bAnshul\\ Sharma\\b|\\bAman\\ Kumar\\ Verma\\b|\\bKantimahanty\\ Rohit\\b|\\bAnisha\\ Rani\\b|\\bAditya\\ M\\b|\\bSoumya\\ Chakraborty\\b|\\bKiran\\ Kumar\\ Bandi\\b|\\bAman\\ Kumar\\b|\\bAnoushka\\ Chouksey\\b|\\bSamir\\ Kumar\\ Mishra\\b|\\bAnick\\ Bhattacharya\\b|\\bShubham\\ Mondal\\b|\\bPrathviraj\\ B\\ N\\b|\\bTirthankar\\ Banerjee\\b)"
+  },
+  {
+    "name": "student_id",
+    "pattern": "(\\bIMT2020032\\b|\\bIMT2020109\\b|\\bMS2021010\\b|\\bMS2022010\\b|\\bMS2022019\\b|\\bMS2022021\\b|\\bMS2022502\\b|\\bMT2022001\\b|\\bMT2022008\\b|\\bMT2022011\\b|\\bMT2022023\\b|\\bMT2022026\\b|\\bMT2022029\\b|\\bMT2022031\\b|\\bMT2022033\\b|\\bMT2022044\\b|\\bMT2022045\\b|\\bMT2022047\\b|\\bMT2022048\\b|\\bMT2022049\\b|\\bMT2022050\\b|\\bMT2022054\\b|\\bMT2022055\\b|\\bMT2022058\\b|\\bMT2022068\\b|\\bMT2022070\\b|\\bMT2022075\\b|\\bMT2022078\\b|\\bMT2022083\\b|\\bMT2022084\\b|\\bMT2022090\\b|\\bMT2022092\\b|\\bMT2022105\\b|\\bMT2022112\\b|\\bMT2022114\\b|\\bMT2022117\\b|\\bMT2022119\\b|\\bMT2022122\\b|\\bMT2022123\\b|\\bMT2022125\\b|\\bMT2022131\\b|\\bMT2022137\\b|\\bMT2022138\\b|\\bMT2022141\\b|\\bMT2022143\\b|\\bMT2022146\\b|\\bMT2022149\\b|\\bMT2022153\\b|\\bMT2022161\\b|\\bMT2022162\\b|\\bMT2022163\\b|\\bMT2022164\\b|\\bMT2022165\\b|\\bMT2022167\\b|\\bMT2022168\\b|\\bMT2022169\\b|\\bMT2022170\\b|\\bPH2022509\\b)"
+  },
+  {
+    "name": "teammate",
+    "pattern": "(\\bTeam\\b|\\bIndividual\\b)"
+  }
+]

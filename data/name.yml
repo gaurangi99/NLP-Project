@@ -3,9 +3,61 @@ version: "3.1"
 nlu: 
   - lookup: name
     examples: |
+      - Sarthak Harne
+      - Chinthan Chandra
+      - Dasari Naga Raju
+      - Dhruv Awasthi
+      - Naik Prachi Sanjay
+      - Rohith Vaidyanathan
+      - Aniket Mitra
+      - Aakanksha Rani
+      - Akanksha Shukla
+      - Akshat Karodiya
+      - Ashish Avdhut Kulkarni
+      - Aswatha Narayanan S
+      - Battula Jashwanth Sai
+      - Chinmay Ram Kavimandan
+      - Dakkili Vishnu Vardhan Reddy
       - Gaurangi Agrawal
+      - Gaurav Sunilkumar Tilokani
+      - Hardeep Singh Arora
+      - Harsh Tripathi
+      - Hyndavi Ambati
+      - Jakkilinki Venkata Ram Sreekar
+      - Jayant Mukundam
+      - Juhi Sohane
+      - Madhugandha Prakash Chavan
+      - Panchadi Vishal Rao
+      - Parul Sachan
+      - Prajwal J M
+      - Prasad Kumar Magdum
+      - Prithviraj Purushottam Naik
+      - Rahul Raj Ambastha
+      - Rittik Panda
+      - Rohit Raman Gopalakrishnan
       - Satvika Shrivastava
-      - Anoushka Chouksey
       - Shubhanshi Bhandari
-      - Anisha Rani
+      - Shyamanth Kashyap
+      - Srishtiraj Gupta
+      - Sudhanshu Kumar
+      - Syed hashir Mahmood
       - Tanishka Singhal
+      - Tushar Nagpal
+      - Vikranth Bari
+      - Yasha Dayal
+      - Yuvraj Sharma
+      - Nitin Pandey
+      - Anshul Sharma
+      - Aman Kumar Verma
+      - Kantimahanty Rohit
+      - Anisha Rani
+      - Aditya M
+      - Soumya Chakraborty
+      - Kiran Kumar Bandi
+      - Aman Kumar
+      - Anoushka Chouksey
+      - Samir Kumar Mishra
+      - Anick Bhattacharya
+      - Shubham Mondal
+      - Prathviraj B N
+      - Tirthankar Banerjee

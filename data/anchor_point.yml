@@ -1,0 +1,10 @@
+version: "3.1"
+
+nlu: 
+  - lookup: anchor_point
+    examples: |
+      - Indic Machine Translation
+      - Abstract Text Summarization
+      - Paraphrasing & Semantic Matching
+      - Conversational Agent
+      - Legal Document Comparison

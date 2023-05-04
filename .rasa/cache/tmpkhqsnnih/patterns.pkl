@@ -1,6 +1,0 @@
-[
-  {
-    "name": "name",
-    "pattern": "(\\bGaurangi\\ Agrawal\\b|\\bSatvika\\ Shrivastava\\b|\\bAnoushka\\ Chouksey\\b|\\bShubhanshi\\ Bhandari\\b|\\bAnisha\\ Rani\\b|\\bTanishka\\ Singhal\\b)"
-  }
-]

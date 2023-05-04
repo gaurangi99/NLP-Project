@@ -46,13 +46,40 @@ stories:
   - intent: faq_language
   - action: utter_faq_language
 
+- story: continue path
+  steps:
+  - checkpoint: continue_checkpoint
+  - action: utter_continue
+
 - story: roll no path
   steps:
   - intent: get_roll_no
     entities:
     - name
-  - action: action_query_database
+  - action: action_query_database_1
   - action: utter_roll_no
   - slot_was_set:
     - name: null
-  - action: utter_goodbye
+  - checkpoint: continue_checkpoint
+
+- story: anchor point path
+  steps:
+  - intent: get_anchor_point
+    entities:
+    - student_id
+  - action: action_query_database_2
+  - action: utter_anchor_point
+  - slot_was_set:
+    - anchor_point: null
+  - checkpoint: continue_checkpoint
+
+- story: teammate path
+  steps:
+  - intent: get_teammate
+    entities:
+    - name
+  - action: action_query_database_3
+  - action: utter_teammate
+  - slot_was_set:
+    - teammate: null
+  - checkpoint: continue_checkpoint
