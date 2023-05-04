@@ -121,7 +121,7 @@ class ActionQueryDatabase_3(Action):
         else:
             # If a matching row was found, extract the information from a different column of the row
             # For example, if you want to extract the 'Student Name' column of the row, use the following code:
-            info = row['Student ID'].values[0]
+            info = row['Team/Individual'].values[0]
             message=f"Teammate of {entity_value} is {info}."
         
         # set the slot with the answer
